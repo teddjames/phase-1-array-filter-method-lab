@@ -17,8 +17,8 @@ function fuzzyMatch(drivers, letters) {
   );
 }
 
-// matchName() accepts an array of driver objects (each with a "name" property)
-// and returns the driver objects whose name property matches the provided string (case-insensitive)
+/* matchName() accepts an array of driver objects (each with a "name" property) */
+/* and returns the driver objects whose name property matches the provided string (case-insensitive) */
 function matchName(drivers, name) {
   return drivers.filter(
     (driver) => driver.name.toLowerCase() === name.toLowerCase()
